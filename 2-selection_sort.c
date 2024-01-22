@@ -4,7 +4,7 @@
  * @a: the first element
  * @b: the second one
  */
-void swap(int *a, int *b)
+void swap_e(int *a, int *b)
 {
 	int t;
 	
@@ -29,7 +29,7 @@ void selection_sort(int *array, size_t size)
 			if (array[j] < array[min_index])
 				min_index = j;
 		}
-		swap(&array[i], &array[min_index]);
+		swap_e(&array[i], &array[min_index]);
 		print_array(array, size);
 	}
 }
