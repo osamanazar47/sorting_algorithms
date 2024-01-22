@@ -1,5 +1,18 @@
 #include "sort.h"
 /**
+ * swap - a function that swaps two elements
+ * @a: the first element
+ * @b: the second one
+ */
+void swap(int *a, int *b)
+{
+	int t;
+	
+	t = *a;
+	*a = *b;
+	*b = t;
+}
+/**
  * selection_sort - a function that sorts an array using selection sort
  * @array: the array to be sorted
  * @size: the size of the array
