@@ -1,13 +1,13 @@
 #include "sort.h"
 /**
- * swap - a function that swaps two elements
+ * swap_e - a function that swaps two elements
  * @a: the first element
  * @b: the second one
  */
 void swap_e(int *a, int *b)
 {
 	int t;
-	
+
 	t = *a;
 	*a = *b;
 	*b = t;
